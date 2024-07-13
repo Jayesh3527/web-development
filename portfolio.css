@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #434343;
+    background: url('imgBG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Header Styles */
+header {
+    background-color: rgba(6, 6, 7, 0.9);
+    color: rgb(233, 94, 34);
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    background-color: rgba(190, 179, 179, 0.9);
+    padding: 6rem 1rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(239, 238, 238);
+}
+
+#about img {
+    max-width: 600px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(204, 202, 202);
+}
+
+#projects .project {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#resume a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #539fea;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+#contact p {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: rgba(0, 64, 128, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 0 0 10px 10px;
+    margin-top: 2rem;
+}
